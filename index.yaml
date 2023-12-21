@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  mysql:
+  - apiVersion: v2
+    appVersion: 8.0.28
+    created: "2023-12-21T14:15:26.850564983+08:00"
+    description: A Helm chart for Kubernetes
+    digest: a85853d5e4b0e4de69347949a1323b436f3cb12e9157661c1ff76f0f3e83099d
+    name: mysql
+    type: application
+    urls:
+    - mysql-0.1.0.tgz
+    version: 0.1.0
+  rabbitmq:
+  - apiVersion: v2
+    appVersion: 3.12.10
+    created: "2023-12-21T14:15:26.851354252+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 45df50cfb25ec2da4bff4704533d995c396ab6be83aaca4a375a8a7c1d0ffd05
+    name: rabbitmq
+    type: application
+    urls:
+    - rabbitmq-0.1.0.tgz
+    version: 0.1.0
+  redis:
+  - apiVersion: v2
+    appVersion: 6.2.5
+    created: "2023-12-21T14:15:26.851971803+08:00"
+    description: A Helm chart for Kubernetes
+    digest: cbc9dc0b52559ff05c579c45ac0d020c271b21f5b803c5cafc648f066e8e47ad
+    name: redis
+    type: application
+    urls:
+    - redis-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-21T14:15:26.849424751+08:00"
